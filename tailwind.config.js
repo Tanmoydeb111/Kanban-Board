@@ -13,6 +13,7 @@ export default {
         'bd':'#cececc',
         'no':'black',
         'tt':'#9da7ca',
+        'cd':'#9da7ca',
       }
     },
   },

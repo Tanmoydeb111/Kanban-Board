@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Popup from 'reactjs-popup';
 
 function App() {

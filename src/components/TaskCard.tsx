@@ -89,8 +89,7 @@ function TaskCard({ task, deleteTask, updateTask }: Props) {
   }
 
   return (
-    <div
-      ref={setNodeRef}
+    <div ref={setNodeRef}
       style={style}
       {...attributes}
       {...listeners}

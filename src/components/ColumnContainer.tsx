@@ -6,12 +6,12 @@ import { useMemo, useState } from "react";
 import PlusIcon from "../icons/PlusIcon";
 import TaskCard from "./TaskCard";
 import More from "../icons/More";
-import DropdownMenu from "./ColorBox";
+// import DropdownMenu from "./ColorBox";
 import Edit from "../icons/edit";
-import ColorPicker from "./colorPick";
+// import ColorPicker from "./colorPick";
 import ColorBox from "./ColorBox";
-import MoveIcon from "../icons/More";
-import He from "./Heading"
+// import MoveIcon from "../icons/More";
+// import He from "./Heading"
 // import { ColorPicker, useColor } from 'react-color-palette';
 // import 'react-color-palette/lib/css/styles.css';
 // import useGenerateRandomColor from "./useGenerateRandomColor";
@@ -62,8 +62,8 @@ function ColumnContainer({
     transition,
     transform: CSS.Transform.toString(transform),
   };
-  var k=4;
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  // var k=4;
+  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   if (isDragging) {
     return (
